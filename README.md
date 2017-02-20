@@ -1,2 +1,4 @@
 # Natural-Language-Processing
-All homework for NLP Class
+This repo has implementation for :
+1. Bigram Probabilities
+2. Viterbi Algorithm
