@@ -1,0 +1,24 @@
+Step to run:
+
+1. Unzip src folder.
+2. Run the Main file with command: python Main.py -sequence <ANY SEQUENCE OF OBSERVATION>
+
+
+usage: Main.py [-h] [-sequence SEQUENCE]
+Apply Viterbi Algorithm to Hot and Cold Problem.
+optional arguments:
+  -h, --help          show this help message and exit
+  -sequence SEQUENCE  A sequence of Icecream count[1-3] (default: 331122313)
+
+
+Sample Results:
+>python Main.py
+The Weather forecast for Observation :  331122313 is HHCCHHHHH
+>python Main.py -sequence 123123123
+The Weather forecast for Observation :  123123123 is HHHHHHHHH
+>python Main.py -sequence 321132113
+The Weather forecast for Observation :  321132113 is HHCCHHCCH
+>python Main.py -sequence 321132112
+The Weather forecast for Observation :  321132112 is HHCCHHCCC
+>python Main.py -sequence 3112
+The Weather forecast for Observation :  3112 is HCCC
