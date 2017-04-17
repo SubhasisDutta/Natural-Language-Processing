@@ -91,3 +91,6 @@ ENV/
 Biagram Probabilities/reference
 .idea
 Viterbi Algorithm/reference
+Word Sense Disambiguation/reference
+Project
+Word Sense Disambiguation/data/nltk_data
