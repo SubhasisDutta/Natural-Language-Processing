@@ -1,0 +1,11 @@
+#Configuration for Access Attributes
+[BiGramService]
+File.TrainingData=../data/corpus.txt
+File.UniGramStore=../data/unigram.txt
+
+[WordCorrectionService]
+File.InsersionData=../data/insertion_confusion.json
+File.DeletionData=../data/deletion_confusion.json
+File.SubstitutionData=../data/substitution_confusion.json
+File.TranspositionData=../data/transposition_confusion.json
+File.DictionaryData=../data/english_dictionary.txt
